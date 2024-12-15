@@ -1,0 +1,26 @@
+.main {
+  height: fit-content;
+}
+.mainContent {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: url("./background2.png");
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#grad_right,
+#grad_left {
+  width: calc((100% - 1000px) / 2);
+}
+
+#grad_right {
+  background: linear-gradient(90deg, #ffffff 0%, rgba(0, 0, 0, 0) 15%);
+}
+
+#grad_left {
+  background: linear-gradient(270deg, #ffffff 0%, rgba(0, 0, 0, 0) 15%);
+}

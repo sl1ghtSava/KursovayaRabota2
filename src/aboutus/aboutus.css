@@ -1,0 +1,37 @@
+.aboutPage {
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutPage p {
+  text-indent: 25px;
+  font-size: 18px;
+  margin: 0;
+}
+.aboutContent {
+  width: 750px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 25px;
+}
+.aboutContent h2 {
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .aboutContent img {
+    width: 80%;
+  }
+  .aboutContent {
+    width: 100%;
+  }
+  .aboutPage {
+    width: 95%;
+    padding: 5%;
+  }
+  .aboutContent {
+    padding: 0;
+  }
+}

@@ -1,0 +1,50 @@
+.mainPage {
+  height: 100vh;
+  width: 1000px;
+  background-color: white;
+}
+.mainDesc {
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainDesc p {
+  margin: 0;
+  font-size: 45px;
+}
+.mainDesc p:nth-child(2) {
+  font-size: 36px;
+}
+.mainDesc span {
+  color: orange;
+}
+.mainDesc a {
+  text-decoration: none;
+  color: brown;
+}
+.itemImage {
+  height: 500px;
+}
+@media (max-width: 1000px) {
+  .mainPage {
+    width: 100%;
+  }
+  .slick-list {
+    height: 300px;
+  }
+  .itemImage {
+    background-position: center center;
+    background-size: 300px 100%;
+    height: 300px;
+  }
+  .mainDesc p {
+    margin: 0;
+    font-size: 36px;
+  }
+  .mainDesc p:nth-child(2) {
+    font-size: 30px;
+  }
+}

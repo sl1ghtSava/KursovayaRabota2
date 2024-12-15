@@ -1,0 +1,192 @@
+.catalogPage {
+  width: 1000px;
+  height: 1222px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.catalogGoods {
+  padding: 10px;
+  width: 680px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.catalogFilters {
+  width: 300px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.catalogGood {
+  margin: 10px;
+  width: 200px;
+  border: 1px solid black;
+  height: 350px;
+  border-radius: 5px;
+  position: relative;
+}
+.catalogGood img {
+  width: 200px;
+  height: 200px;
+}
+.catalogGood h3,
+.catalogGood h4 {
+  margin: 10px;
+}
+.catalogPagination {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+#search {
+  margin: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: orange;
+  height: 20px;
+  width: 80%;
+  transition: 0.5s;
+}
+#search:focus {
+  background-color: orange;
+}
+#filters {
+  color: white;
+}
+#sorters p,
+#filters p {
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+#sorters button {
+  border-radius: 5px;
+  background-color: white;
+  border: 0;
+  margin: 10px;
+  height: 25px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+#sorters button:hover {
+  background-color: orange;
+  color: brown;
+  cursor: pointer;
+}
+#filters label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.cartbutton {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.cartbutton:hover {
+  cursor: pointer;
+  background-color: brown;
+}
+#svgcart {
+  padding: 5px;
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+.filterButton {
+  display: none;
+  height: 50px;
+  width: 100%;
+  background-color: brown;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.filterButton:hover {
+  background-color: darkred;
+}
+
+.catalogPagination button {
+  width: 36px;
+  height: 36px;
+  background-color: brown;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+}
+.catalogPagination button:hover {
+  cursor: pointer;
+}
+.catalogPagination span {
+  margin: 0 25px 0 25px;
+  line-height: 36px;
+}
+@media (max-width: 1000px) {
+  #fitler_up {
+    display: block;
+  }
+  #filter_down {
+    display: none;
+  }
+  .filterButton {
+    width: 50px;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    text-align: right;
+    height: auto;
+    display: block;
+    border: 0;
+    transition: 0.5s;
+  }
+  .catalogPage {
+    position: relative;
+    flex-direction: row-reverse;
+    height: fit-content;
+    justify-content: left;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .catalogGoods {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    width: calc(100vw - 50px);
+    height: 1116px;
+  }
+  .catalogGood {
+    width: 300px;
+  }
+  .catalogFilters {
+    position: absolute;
+    height: 100%;
+    width: calc(100vw - 50px);
+    left: 50px;
+  }
+  .filter input {
+    width: 20px;
+    height: 20px;
+  }
+  .catalogPagination button {
+    width: 48px;
+    height: 48px;
+  }
+  .catalogPagination span {
+    line-height: 48px;
+  }
+}

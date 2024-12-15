@@ -1,0 +1,146 @@
+[
+  {
+    "imageUrl": "./images/bosch.jpg",
+    "title": "Bosch P7021",
+    "price": 750,
+    "manufacturer": "Bosch",
+    "desc": "Фильтр для очистки масла в двигателе, продлевающий его срок службы.",
+    "type": "Фильтр"
+  },
+  {
+    "imageUrl": "./images/mann.jpg",
+    "title": "Mann C28125",
+    "price": 500,
+    "manufacturer": "Mann",
+    "desc": "Фильтр для очищения воздуха, поступающего в двигатель.",
+    "type": "Фильтр"
+  },
+  {
+    "imageUrl": "./images/ngk.jpg",
+    "title": "NGK BKR5E",
+    "price": 300,
+    "manufacturer": "NGK",
+    "desc": "Высококачественная свеча зажигания для бензиновых двигателей.",
+    "type": "Свеча"
+  },
+  {
+    "imageUrl": "./images/brembo.jpg",
+    "title": "Brembo P83024",
+    "price": 1200,
+    "manufacturer": "Brembo",
+    "desc": "Комплект тормозных колодок с высоким уровнем износостойкости.",
+    "type": "Тормозная система"
+  },
+  {
+    "imageUrl": "./images/varta.jpg",
+    "title": "Varta Dynamic 60Ah",
+    "price": 4500,
+    "manufacturer": "Varta",
+    "desc": "Надежный аккумулятор с высокой емкостью для автомобилей разных классов.",
+    "type": "Электрика"
+  },
+  {
+    "imageUrl": "./images/bosch1.jpg",
+    "title": "Bosch 0580454094",
+    "price": 3500,
+    "manufacturer": "Bosch",
+    "desc": "Топливный насос для стабильной подачи топлива в систему.",
+    "type": "Топливная система"
+  },
+  {
+    "imageUrl": "./images/valeo.png",
+    "title": "Valeo TG12C063",
+    "price": 5500,
+    "manufacturer": "Valeo",
+    "desc": "Генератор переменного тока для зарядки аккумулятора и питания электроники.",
+    "type": "Электрика"
+  },
+  {
+    "imageUrl": "./images/kyb.jpg",
+    "title": "KYB Excel-G 344441",
+    "price": 2200,
+    "manufacturer": "KYB",
+    "desc": "Амортизатор для повышения комфорта и управляемости автомобиля.",
+    "type": "Подвеска"
+  },
+  {
+    "imageUrl": "./images/nissens.jpg",
+    "title": "Nissens 65575",
+    "price": 4000,
+    "manufacturer": "Nissens",
+    "desc": "Радиатор для охлаждения двигателя и предотвращения его перегрева.",
+    "type": "Охлаждающая система"
+  },
+  {
+    "imageUrl": "./images/contitech.jpg",
+    "title": "ContiTech CT1139",
+    "price": 900,
+    "manufacturer": "ContiTech",
+    "desc": "Ремень ГРМ с высокой износостойкостью для долговременной работы.",
+    "type": "Привод"
+  },
+  {
+    "imageUrl": "./images/sachs.jpg",
+    "title": "Sachs 3000950622",
+    "price": 5800,
+    "manufacturer": "Sachs",
+    "desc": "Комплект сцепления для плавного и надежного переключения передач.",
+    "type": "Сцепление"
+  },
+  {
+    "imageUrl": "./images/walker.jpg",
+    "title": "Walker 18310",
+    "price": 1800,
+    "manufacturer": "Walker",
+    "desc": "Глушитель для снижения шума от выхлопной системы.",
+    "type": "Выхлопная система"
+  },
+  {
+    "imageUrl": "./images/hella.jpg",
+    "title": "Hella 1K0997",
+    "price": 2700,
+    "manufacturer": "Hella",
+    "desc": "Передняя фара для оптимального освещения дороги.",
+    "type": "Освещение"
+  },
+  {
+    "imageUrl": "./images/mobil.jpg",
+    "title": "Mobil 1 5W-30",
+    "price": 1200,
+    "manufacturer": "Mobil",
+    "desc": "Высококачественное моторное масло для защиты двигателя.",
+    "type": "Масла и жидкости"
+  },
+  {
+    "imageUrl": "./images/gkn.jpg",
+    "title": "GKN 304237",
+    "price": 6300,
+    "manufacturer": "GKN",
+    "desc": "Приводной вал для передачи крутящего момента от коробки передач к колесам.",
+    "type": "Привод"
+  },
+  {
+    "imageUrl": "./images/valeo.jpg",
+    "title": "Valeo X-TRM",
+    "price": 600,
+    "manufacturer": "Valeo",
+    "desc": "Комплект щеток стеклоочистителя для чистого обзора.",
+    "type": "Стеклоочистители"
+  },
+  {
+    "imageUrl": "./images/prestone.jpg",
+    "title": "Prestone AF2100",
+    "price": 800,
+    "manufacturer": "Prestone",
+    "desc": "Охлаждающая жидкость для предотвращения перегрева двигателя.",
+    "type": "Масла и жидкости"
+  },
+  {
+    "imageUrl": "./images/ina.jpg",
+    "title": "INA 534041410",
+    "price": 1100,
+    "manufacturer": "INA",
+    "desc": "Натяжитель ремня для стабильного натяжения приводного ремня.",
+    "type": "Привод"
+  }
+]

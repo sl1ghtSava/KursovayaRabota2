@@ -1,0 +1,27 @@
+.slick-dots li.slick-active button:before {
+  color: darkorange !important;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: black;
+}
+.slick-arrow.slick-prev {
+  padding-left: 35px;
+  z-index: 99;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: darkorange !important;
+}
+.slick-arrow.slick-next {
+  padding-right: 55px;
+  z-index: 99;
+}
+ul.slick-dots {
+  margin-bottom: 40px;
+}
+@media (max-width: 1000px) {
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+    display: none !important;
+  }
+}

@@ -1,0 +1,84 @@
+.header {
+  background-color: darkorange;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.headerLogo,
+.headerMenu {
+  margin-left: 25px;
+}
+.headerLogo {
+  font-size: 36px;
+  color: darkred;
+  line-height: 50px;
+}
+.headerMenu {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  fill: darkred;
+  transition: all 0.5s ease-in-out;
+}
+.headerMenu svg g {
+  fill: darkred;
+}
+.headerBlock {
+  width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+}
+.headerMenuImage {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(0, 59%, 41%);
+}
+.headerSlide {
+  position: absolute;
+  top: 75px;
+  background-color: #ff8c00;
+  width: 345px;
+  margin-left: 25px;
+  border-radius: 0 0 25px 25px;
+  border: 3px solid #a52a2a;
+  z-index: 888;
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 0.5s;
+}
+.headerSlide a {
+  text-decoration: none;
+}
+.headerSlide.open {
+  clip-path: inset(0 0 0 0);
+}
+
+.headerSlideButton {
+  height: 75px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 75px;
+  border-bottom: 3px solid brown;
+  color: brown;
+  transition: 0.5s;
+}
+.headerSlideButton:hover {
+  color: #ff8c00;
+  background-color: brown;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#lastelem {
+  border-radius: 0 0 25px 25px;
+}
+@media (max-width: 500px) {
+  .headerSlide {
+    margin: 0;
+    width: 100%;
+    border: 0;
+  }
+}
